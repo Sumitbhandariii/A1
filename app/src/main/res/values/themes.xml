@@ -1,5 +1,5 @@
 <resources>
     <!-- App content is rendered entirely by Jetpack Compose (FlowClockTheme);
          this is just the launch/system theme shell, DayNight-aware by default. -->
-    <style name="Theme.FlowClock" parent="android:Theme.DeviceDefault.DayNight.NoActionBar" />
+    <style name="Theme.FlowClock" parent="Theme.Material3.DayNight.NoActionBar" />
 </resources>
