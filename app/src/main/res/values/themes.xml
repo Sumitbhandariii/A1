@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Standard Material theme jo bina kisi extra library ke compile ho jati hai -->
     <style name="Theme.FlowClock" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>
