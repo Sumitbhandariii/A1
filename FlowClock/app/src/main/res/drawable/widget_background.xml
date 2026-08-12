@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- References @color/widget_background_color, which has a values-night
+     override, so this single drawable adapts automatically to system theme. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/widget_background_color" />
+    <corners android:radius="20dp" />
+</shape>

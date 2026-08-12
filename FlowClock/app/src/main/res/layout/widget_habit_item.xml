@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+    <View
+        android:id="@+id/item_color_tag"
+        android:layout_width="4dp"
+        android:layout_height="20dp"
+        android:background="@color/widget_accent" />
+
+    <TextView
+        android:id="@+id/item_habit_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/widget_text_primary"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/item_toggle_icon"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:contentDescription="@string/toggle_habit"
+        android:src="@drawable/ic_circle_outline" />
+
+</LinearLayout>

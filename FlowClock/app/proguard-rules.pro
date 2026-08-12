@@ -1,0 +1,3 @@
+-keep class com.flowclock.app.data.** { *; }
+-keep class com.flowclock.app.widget.** { *; }
+-keepattributes *Annotation*

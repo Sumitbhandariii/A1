@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FlowClock</string>
+    <string name="widget_description">Track your daily habits at a glance</string>
+    <string name="widget_no_habits">No habits yet. Tap + to add one.</string>
+    <string name="add_habit">Add habit</string>
+    <string name="toggle_habit">Toggle habit completion</string>
+
+    <plurals name="tasks_remaining">
+        <item quantity="zero">All done! 🎉</item>
+        <item quantity="one">%d task remaining</item>
+        <item quantity="other">%d tasks remaining</item>
+    </plurals>
+</resources>
